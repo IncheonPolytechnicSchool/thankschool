@@ -15,14 +15,6 @@ h1 {
     color: #4DC3FA;
 }
 
-.blue {
-    color: #185875;
-}
-
-.yellow {
-    color: #FFF842;
-}
-
 .container {
     text-align: center;
     overflow: hidden;
@@ -30,7 +22,6 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
     display: table;
-    padding: 0 0 8em 3em;
 }
 
 .container th h1 {
@@ -67,13 +58,36 @@ h1 {
     color: whitesmoke;
 }
 
+a.linked:link {
+    color: blue;
+    background-color: #FFF842;
+    border-radius: 8px;
+    padding:5px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
 
-@media (max-width: 800px) {
+a.linked:visited {
+    color: blue;
+    background-color: #FFF842;
+    text-decoration: underline;
+}
 
-    .container td:nth-child(4),
-    .container th:nth-child(4) {
-        display: none;
-    }
+a.linkedTitle:link {
+    color: rgb(151, 245, 255);
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+a.linkedTitle:visited {
+    color: rgb(151, 245, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.special-image {
+    border-radius: 15px;
 }
 
 .navbar {
@@ -201,36 +215,4 @@ a.white {
         justify-content: center;
         width: 100%;
     }
-}
-
-a.linked:link {
-    color: blue;
-    background-color: #FFF842;
-    border-radius: 8px;
-    padding:5px;
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-a.linked:visited {
-    color: blue;
-    background-color: #FFF842;
-    text-decoration: underline;
-}
-
-a.linkedTitle:link {
-    color: rgb(151, 245, 255);
-    background-color: transparent;
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-a.linkedTitle:visited {
-    color: rgb(151, 245, 255);
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-.special-image {
-    border-radius: 15px;
 }
