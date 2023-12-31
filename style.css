@@ -24,7 +24,7 @@ h1 {
 }
 
 .container {
-    text-align: left;
+    text-align: center;
     overflow: hidden;
     width: 94%;
     max-width: 1000px;
@@ -35,7 +35,7 @@ h1 {
 
 .container th h1 {
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     color: #185875;
 }
 
